@@ -1,6 +1,6 @@
 /**** First Test Case ****/
 // we are getting 1-5 to console log
-// 
+//
 // var number = 4;
 //
 // if(number === 1) {
@@ -42,5 +42,51 @@ var C = 100;
 var D = 500;
 var M = 1,000;
 
-numArray = [1, 5, 10, 50, 100, 500, 1000]
-letterArray = [I, V, X, L, C, D, M]
+var userInput = 25; // XXV
+
+
+if (userInput === 1 && userInput < 5) {
+	console.log(I + number of times)
+}
+
+var numArray = [1, 5, 10, 50, 100, 500, 1000];
+var letterArray = [I, V, X, L, C, D, M];
+
+// first..
+input = array
+array.split input into an array of individual numbers
+if array,length === 4 numbers, first digit is a thousand
+	then hundreds, then tens etc
+if array,length === 3 digits, first digit is a hundred
+	then ten, then one;
+if array,length === 2 digits, first digit is tens
+	then ones
+if array,length === 1 digit, first digit is tens
+	then NOTHING
+
+userInput = []
+userInput = [1000]
+
+userInput.split("");
+	this.forEach{
+  	if userInput.length === 3{
+    	userInput[0] === M ====
+    }
+  }
+
+
+
+
+
+
+
+
+
+  var number = 5;
+  var array = number.split("");
+  console.log("Array " + array); // [5]
+  if (array.length === 0) {
+  	if(number === 5) {
+    	console.log("V");
+    }
+  }
